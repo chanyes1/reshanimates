@@ -10,23 +10,23 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Logo</a>
+        <a href="https://reshanims.carrd.co/?fbclid=PAZXh0bgNhZW0CMTEAAaaGt6PeGqUcduluBfS5arJUgHD5IkKa60TnI3GAkAvZjTMebyRMMICmv34_aem_NS_CSKgJt0Xbx9g7ebtzFA" class="logo">ReshAnims</a>
 
         <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#" >About</a>
-            <a href="#" >Animations</a>
-            <a href="#" >Shorts</a>
-            <a href="#" >Store</a>
-            <a href="#" >Support</a>
+            <a href="#home" class="active"> Home</a>
+            <a href="#About" >About</a>
+            <a href="#Animations" >Animations</a>
+            <a href="#shorts" >Shorts</a>
+            <a href="#home" >Contact</a>
+            <a href="#support" >Support</a>
         </nav>
     </header>
-    <section class="home">
+    <section id="home" class="home pop-up-animation">
         <div class="home-img">
             <img src="main.jpg" alt="">
         </div>
         <div class="home-content">
-            <h1>Hi, It's <span>Youtuber's name</span></h1>
+            <h1>Hi, It's <span>Resh</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
             <p>Description of youtuber's.</p>
             <div class="social-icons">
@@ -38,5 +38,33 @@
             <a href="#" class="btn">Hire me</a>
         </div>
     </section>
+
+    <section id="About" class="About pop-up-animation">
+        <div class="About-img">
+            <img src="resh.jpg" alt="">
+        </div>
+        <div class="About-content">
+            <h1>All info about <span>Resh</span></h1>
+            <p>Description of youtuber's.</p>
+    </section>
+
+    <section id="Animations" class="Animations pop-up-animation">
+        <div class="video-container">
+            <video id="CrimsonAlpine" controls>
+                <source src="Crimson Alpine.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button onclick="playVideo('CrimsonAlpine')"></button>
+        </div> 
+        
+        <div class="video-container">
+            <video id="UmbrellaFLLFFL" controls>
+                <source src="RHG_ Umbrella V FLLFFL.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button onclick="playVideo('UmbrellaFLLFFL')"></button>
+        </div>
+    </section>
+
 </body>
 </html>
