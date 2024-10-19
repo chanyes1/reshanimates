@@ -38,6 +38,12 @@ header {
     z-index: 100;
 }
 
+iframe {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
 .logo {
     font-size: 3rem;
     color: rgb(203, 116, 253);
