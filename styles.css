@@ -332,7 +332,12 @@ span {
 }
 
 .shorts {
+    display: flex;
     border-style: solid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem; /* Add space between the embedded posts */
+    padding: 1rem;
     border-width: 60px;
     background-color: lightblue;
     border-color: lemonchiffon;
