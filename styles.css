@@ -348,16 +348,18 @@ span {
     /* Enable vertical scroll */
 }
 
-.video-container {
-    width: 100%;
-    max-width: 1200px;
-    min-height: 400px;
-    margin: 1rem auto;
-    /* Add margin for spacing between video containers */
-    border-radius: 15px;
-}
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width * 100 = 9/16 * 100) */
+        height: 0;
+        overflow: hidden;
+    }
 
 .video-container video,
-.video-container iframe {
-    object-fit: cover;
-}
+.video-container iframe {        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
