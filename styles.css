@@ -38,9 +38,6 @@ header {
     z-index: 100;
 }
 
-
-
-
 .logo {
     font-size: 3rem;
     color: rgb(203, 116, 253);
@@ -104,11 +101,6 @@ nav a.active {
 section {
     min-height: 100vh;
     padding: 5rem 9% 5rem;
-}
-
-div, section {
-    height: auto;
-    overflow: visible;
 }
 
 /* Define the pop-up animation */
@@ -350,18 +342,16 @@ span {
     /* Enable vertical scroll */
 }
 
-    .video-container {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width * 100 = 9/16 * 100) */
-        height: 0;
-        overflow: hidden;
-    }
+.video-container {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 1rem auto;
+    /* Add margin for spacing between video containers */
+    border-radius: 15px;
+}
 
 .video-container video,
-.video-container iframe {        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+.video-container iframe {
+    object-fit: cover;
+}
