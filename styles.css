@@ -346,14 +346,12 @@ span {
     overflow-y: auto;
     /* Enable vertical scroll */
 }
-.tumblr-container {
-    flex: 1 1 300px; /* Ensures the containers grow and shrink responsively */
-    max-width: 560px; /* Prevents the iframe from being too wide */
-    margin-bottom: 1rem; /* Adds space at the bottom of each video */
-}
+
 .video-container {
+    margin-bottom: 1rem;
+    flex: 1 1 300px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 560px;
     min-height: 400px;
     margin: 1rem auto;
     /* Add margin for spacing between video containers */
