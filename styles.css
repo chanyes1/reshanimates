@@ -336,7 +336,7 @@ span {
     border-width: 60px;
     background-color: lightblue;
     border-color: lemonchiffon;
-    max-height: 400px;
+    max-height: max-content;
     /* You can adjust the height as needed */
     overflow-y: auto;
     /* Enable vertical scroll */
