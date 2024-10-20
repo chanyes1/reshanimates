@@ -109,6 +109,11 @@ section {
     padding: 5rem 9% 5rem;
 }
 
+div, section {
+    height: auto;
+    overflow: visible;
+}
+
 /* Define the pop-up animation */
 @keyframes popUp {
     0% {
