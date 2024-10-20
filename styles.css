@@ -359,7 +359,5 @@ span {
 
 .video-container video,
 .video-container iframe {
-    width: 100%;
-    height: auto;
     object-fit: cover;
 }
