@@ -38,10 +38,7 @@ header {
     z-index: 100;
 }
 
-iframe {
-    width: 100% !important;
-    height: auto !important;
-}
+
 
 
 .logo {
